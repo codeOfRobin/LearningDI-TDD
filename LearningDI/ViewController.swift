@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     }
 
     func fetchMinions(minionService: MinionService = MinionService()) {
-
+        minionService.getTheMinions { (minions) in
+        }
     }
 
 }
